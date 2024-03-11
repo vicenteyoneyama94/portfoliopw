@@ -3,12 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="description"
+        content="Portfólio de Vicente Yoneyama Júnior, acadêmico do curso de Engenharia de Software da instituição IFPR - Paranavaí">
+    <meta name="keywords" content="desenvolvedor web, portfólio, projetos web, formação em programação">
+    <meta name="author" content="Vicente Yoneyama Júnior">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="Nome do Portfólio - Desenvolvedor Web">
+    <meta property="og:description" content="Portfólio de [Seu Nome], desenvolvedor web.">
+    <meta property="og:image" content="URL_da_Imagem_de_Destaque">
+    <meta property="og:url" content="URL_da_Página">
+
     <link href="css/style.css" rel="stylesheet" />
 
-    <title>Pagina inicial do Portfólio</title>
+    <title>Portfólio Vicente Yoneyama Júnior</title>
 </head>
 
-<body class="body">
+<body>
     <header class="site-header">
         <div class="container">
             <nav class="main-navigation">
@@ -28,7 +39,7 @@
         <div class="titulo">
             <h1>Bem-Vindos ao Portfólio</h1>
         </div>
-        <section class="clearfix">
+        <section id="sobre-mim" class="section clearfix">
             <div>
                 <img class="profile-pic"
                     src="https://cdn.dooca.store/559/products/pcgc03-e-5_640x640+fill_ffffff.png?v=1671125504&webp=0"
@@ -43,30 +54,36 @@
                 <p>Olá, meu nome é Vicente....</p>
             </div>
         </section>
-        <section>
-            <h2>Projetos Desenvolvidos</h2>
-            <div class="project-grid"></div>
-            <article class="project-item">
-                <img src="https://devsagaz.com.br/content/images/2023/05/Ekran-Resmi-2019-11-18-18.08.13.png" />
-                <div class="project-info">
-                    <h3>Projeto React</h3>
-                    <p>Descrição do Projeto</p>
-                </div>
-            </article>
-            <article class="project-item">
-                <img src="https://devsagaz.com.br/content/images/2023/05/Ekran-Resmi-2019-11-18-18.08.13.png" />
-                <div class="project-info">
-                    <h3>Projeto React</h3>
-                    <p>Descrição do Projeto</p>
-                </div>
-            </article>
-            <article class="project-item">
-                <img src="https://devsagaz.com.br/content/images/2023/05/Ekran-Resmi-2019-11-18-18.08.13.png" />
-                <div class="project-info">
-                    <h3>Projeto React</h3>
-                    <p>Descrição do Projeto</p>
-                </div>
-            </article>
+        <section id="projetos" class="section">
+            <div class="dev-project">
+                <h2>Projetos Desenvolvidos</h2>
+            </div>
+            <div class="projects-grid">
+                <article class="project-item">
+                    <img src="https://pbs.twimg.com/profile_images/1235868806079057921/fTL08u_H_400x400.png" />
+                    <div class="project-info">
+                        <h3>Projeto FreeMarket</h3>
+                        <h3>Descrição do Projeto</h3>
+                        <p>Projeto BackEnd em Spring Boot, utilizando a linguagem Java como base.
+                            FreeMarket é uma loja virtual, focada nos e-commerces, com objetivo
+                            de ser uma loja simples, mas rápida e útil.
+                        </p>
+                    </div>
+                </article>
+                <article class="project-item">
+                    <img src="https://devsagaz.com.br/content/images/2023/05/Ekran-Resmi-2019-11-18-18.08.13.png" />
+                    <div class="project-info">
+                        <h3>Projeto React</h3>
+                        <p>Descrição do Projeto</p>
+                    </div>
+                </article>
+                <article class="project-item">
+                    <img src="https://devsagaz.com.br/content/images/2023/05/Ekran-Resmi-2019-11-18-18.08.13.png" />
+                    <div class="project-info">
+                        <h3>Projeto React</h3>
+                        <p>Descrição do Projeto</p>
+                    </div>
+                </article>
             </div>
         </section>
         <div>
