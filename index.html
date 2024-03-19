@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <meta name="description"
         content="Portfólio de Vicente Yoneyama Júnior, acadêmico do curso de Engenharia de Software da instituição IFPR - Paranavaí">
     <meta name="keywords" content="desenvolvedor web, portfólio, projetos web, formação em programação">
@@ -36,13 +36,15 @@
 
     <main class="container">
 
+        
         <div class="titulo">
             <h1>Bem-Vindos ao Portfólio</h1>
         </div>
-        <section id="sobre-mim" class="section clearfix">
+        <article class="projects-item-about-me">
+          <section id="sobre-mim" class="section clearfix">
             <div>
                 <img class="profile-pic"
-                    src="https://cdn.dooca.store/559/products/pcgc03-e-5_640x640+fill_ffffff.png?v=1671125504&webp=0"
+                    src="https://scontent.fpoa10-1.fna.fbcdn.net/v/t39.30808-1/283891126_3219366348389173_3777387156315779107_n.jpg?stp=dst-jpg_p160x160&_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFA-M-OtYTYO6gqMR4PvQKE1JZuvB2tTPTUlm68Ha1M9K4TaTdrjVkkFZSaRKCKWke-gynCxLwNi3ejExiL33qG&_nc_ohc=8yw2MXPkxgUAX_AHnWp&_nc_ht=scontent.fpoa10-1.fna&oh=00_AfDrEN3D4ZDpf0EzDbvxOx6LE5D0V97LXMas7DfnKXE6BA&oe=65FD7F28"
                     alt="Minha foto" />
 
 
@@ -51,8 +53,18 @@
                 <h3>Sobre mim</h3>
             </div>
             <div>
-                <p>Olá, meu nome é Vicente....</p>
+                <p class="letra-portfolio">Olá, meu nome é Vicente Yoneyama Júnior. Tenho 29 anos, acadêmico do curso
+                    Bacharelado em Engenharia de Software da instuição IFPR - Paranavaí.</br></br>
+                    Trabalho com informática há mais de 10 anos, principalmente na área da manutenção
+                    de equipamentos, onde me chamou a atenção a área de Tecnologia da Informação.</br></br>
+                    Trabalhei como Suporte na empresa Ápice Sistemas no ano de 2021, onde foi a partir disso
+                    que pude obter um vasto aprendizado sobre como é a área de TI.</br></br>
+                    Atualmente estou a procura uma oportunidade de trabalho na área de TI, com objetivo
+                    de cada vez mais me aperfeiçoar profissionalmente.
+
+                </p>
             </div>
+        </article>
         </section>
         <section id="projetos" class="section">
             <div class="dev-project">
@@ -62,38 +74,66 @@
                 <article class="project-item">
                     <img src="https://pbs.twimg.com/profile_images/1235868806079057921/fTL08u_H_400x400.png" />
                     <div class="project-info">
-                        <h3>Projeto FreeMarket</h3>
+                        <h2 class="alinhador-project-info">Projeto FreeMarket</h2>
                         <h3>Descrição do Projeto</h3>
-                        <p>Projeto BackEnd em Spring Boot, utilizando a linguagem Java como base.
+                        <p class="project-info-description">Projeto BackEnd em Spring Boot, utilizando a linguagem Java
+                            como base. </br></br>
                             FreeMarket é uma loja virtual, focada nos e-commerces, com objetivo
                             de ser uma loja simples, mas rápida e útil.
                         </p>
                     </div>
                 </article>
                 <article class="project-item">
-                    <img src="https://devsagaz.com.br/content/images/2023/05/Ekran-Resmi-2019-11-18-18.08.13.png" />
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png" />
                     <div class="project-info">
-                        <h3>Projeto React</h3>
-                        <p>Descrição do Projeto</p>
+                        <h2 class="alinhador-project-info">Calculadora de taxas</h2>
+                        <h3>Descrição do Projeto</h3>
+                        <p class="project-info-description">Calculadora básica para simples cálculos de taxas
+                            de juros para determinadas vendas futuras, feitas em maquininhas. </br>
+                            Em resumo, procura facilitar e adiantar qual
+                            será o seu lucro em determinada venda.
+                        </p>
                     </div>
                 </article>
                 <article class="project-item">
-                    <img src="https://devsagaz.com.br/content/images/2023/05/Ekran-Resmi-2019-11-18-18.08.13.png" />
+                    <img src="https://ayltoninacio.com.br/img/p/32w1500.jpg" />
                     <div class="project-info">
-                        <h3>Projeto React</h3>
-                        <p>Descrição do Projeto</p>
+                        <h2 class="alinhador-project-info">Calculadora KM/L</h2>
+                        <h3>Descrição do Projeto:</h3>
+                        <p class="project-info-description">Esta calculadora
+                            consiste em agilizar o usuário a efetuar um cálculo
+                            de média por litro, e saber quantos km por litro
+                            seu veículo está fazendo.
+                        </p>
                     </div>
                 </article>
             </div>
         </section>
-        <div>
+        <section id="formacao" class="section">
+            <h2>Formação/Cursos/Cursando</h2>
+            <ul>
+                <li>Bacharelado em Engenharia de Software - Cursando</li>
+            </ul>
+        </section>
 
-        </div>
+        <section id="contato" class="container section">
+            <h2>Contato</h2>
+            <div class="contact-info">
 
+                <a href="https://instagram.com/yoneyamav94" target="_blank" rel="noopener noreferrer">Instagram</a>
+
+                <a href="mailto:vicenteyoneyama@gmail.com">E-mail</a>
+
+                <a href="https://wa.me/+5544998381173" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+            </div>
+        </section>
     </main>
 
     <footer class="site-footer">
-
+        <div class="container">
+            <p>&copy; 2024 Vicente Yoneyama Jr. Todos os direitos reservados.</p>
+        </div>
     </footer>
 
 </body>
